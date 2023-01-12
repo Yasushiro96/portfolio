@@ -8,11 +8,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        main : '#0c4a6e'
+        primary : '#ffe4e6',
+        secondary : '#881337',
+        warna3 : '#71717a',
+        dark: '#0f172a',
       },
-      screens : {
-        '2xl' : '1320px',
-      }
     },
   },
   plugins: [
