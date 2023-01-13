@@ -12,50 +12,51 @@
     <link rel="shortcut icon" href="dist/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
+  <!-- header dan navbar -->
 
-  <header class="container">
-    <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 bg-white">
-      <div>
-        <a href="#">
-          <img src="dist/img/v-nobg.png" class="w-1/2 items-center p-5" alt="">
-        </a>
-      </div>
-      
-      <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block" fill="none" viewBox="0 0 24 24 " stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-      
-      <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
-         <ul class=" pt-4 text-base text-gray-700 md:flex md:justify-between  md:pt-0">
-          <li>
-            <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Home</a>
-          </li>
-          <li>
-            <a class="md:p-4 py-2 block hover:text-purple-400" href="#">About</a>
-          </li>
-          <li>
-            <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Project</a>
-          </li>
-          <li>
-            <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-   </nav>
- </header>
   <!-- Header End -->
   
   <!-- //banner layout -->
-  <div class="container bg-white">
+  <div class=" pattern py-7">
+    <header class="bg-transparent">
+      <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700">
+        <div>
+          <a href="#">
+            <img src="dist/img/v-nobg.png" class="w-1/2 items-center p-5" alt="">
+          </a>
+        </div>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" id="navbar-button" class="h-6 w-6 cursor-pointer md:hidden block text-[#E5E5CB]" fill="none" viewBox="0 0 24 24 " stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+           <ul class=" pt-4 text-base text-gray-700 md:flex md:justify-between  md:pt-0">
+            <li>
+              <a class="navigasi px-4 py-2 block text-[#E5E5CB] font-semibold hover:text-[#3C2A21]" href="#">Home</a>
+            </li>
+            <li>
+              <a class="navigasi px-4 py-2 block text-[#E5E5CB] font-semibold hover:text-[#3C2A21]" href="#about">About</a>
+            </li>
+            <li>
+              <a class="navigasi px-4 py-2 block text-[#E5E5CB] font-semibold hover:text-[#3C2A21]" href="#project">Project</a>
+            </li>
+            <li>
+              <a class="navigasi px-4 py-2 block text-[#E5E5CB] font-semibold hover:text-[#3C2A21]" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+     </nav>
+   </header>
     <main id="home">
-      <div class="relative px-6 lg:px-8">
+      <div class="relative px-6 lg:px-8 pb-20">
         <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
           <div>
             <div>
-              <h1 class="text-5xl font-bold tracking-tight sm:text-center sm:text-lg">Welcome to my Portfolio</h1>
-              <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">This page contains a student profiles who strives to be better day by day</p>
+              <h1 class="text-5xl font-bold tracking-tight sm:text-center sm:text-lg text-[#E5E5CB]">Welcome to my Portfolio</h1>
+              <p class="mt-6 text-lg leading-8 py-3 px-5 bg-[#1A120B] text-[#E5E5CB] sm:text-center">This page contains a student profiles who strives to be better day by day</p>
               <div class="mt-8 flex gap-x-4 sm:justify-center">
-                <a href="#" class="inline-block rounded-lg bg-secondary px-4 py-2.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-secondary hover:bg-white hover:ring-secondary  hover:text-secondary transition ease-in-out">
+                <a href="#about" class="inline-block rounded-lg bg-[#E5E5CB] px-6 py-2.5 text-base font-semibold leading-7 text-secondary shadow-sm ring-1 ring-[#E5E5CB] hover:bg-white hover:ring-[#E5E5CB]  hover:text-[#E5E5CB] transition ease-in-out">
                   Explore
                 </a>
               </div>
@@ -67,14 +68,14 @@
   </div>
 
   <!-- about -->
-  <div id="about" class="container py-40">
+  <div id="about" class="py-32 bg-[#E5E5CB]">
     <div class="flex flex-wrap lg:px-32">
       <div class="w-full self-center px-4 lg:w-1/2">
           <div class="sm:max-w-lg">
             <h2 class="text-lg font-semibold leading-8 text-secondarybg-secondary mb-2">About</h2>
-            <h1 class="font text-4xl font-bold text-gray-900 sm:text-6xl">Hello,</h1>
-            <p class="mt-4 text-xl text-gray-500 mb-10">I am a man who has the name Vyrdi Firmansyah currently 16 years old</p>
-            <a href="#contact" class=" rounded-md border border-transparent bg-secondary py-3 px-8 text-center font-medium text-white hover:bg-indigo-700">Contact me</a>
+            <h1 class="font text-4xl font-bold text-gray-900">Hello,</h1>
+            <p class="mt-4 text-xl text-gray-500 mb-10">I am a man who has the name Vyrdi Firmansyah, 17 years old.<span class="block mt-2">Currently preparing to enter college, and interested in working in the information technology field. this is my resume to know more about me</span></p>
+            <a href="dist/img/CV Vyrdi Firmansyah.pdf" download class=" rounded-md border border-transparent bg-[#3C2A21] py-3 px-8 text-center font-medium text-white hover:bg-[#3c2a21b5] transition .5s ease-in-out"><i class="fa fa-file" aria-hidden="true"></i> Get Resume</a>
           </div>
       </div>
       <div class="w-full self-end px-4 lg:w-1/2 ">
@@ -87,7 +88,7 @@
   
 
   <!-- services layout -->
-  <div class="bg-primary py-24 sm:py-32 lg:py-40">
+  <div class="bg-[#D5CEA3] py-24 sm:py-32 lg:py-40">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="sm:text-center">
         <h2 class="text-lg font-semibold leading-8 text-secondarybg-secondary">Services</h2>
@@ -98,7 +99,7 @@
       <div class="mt-20 sm:mx-auto md:max-w-none">
         <div class="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
           <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-primary sm:shrink-0">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-[#3C2A21] text-[#E5E5CB] sm:shrink-0">
               <!-- Heroicon name: outline/globe-alt -->
               <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
@@ -106,12 +107,12 @@
             </div>
             <div class="sm:min-w-0 sm:flex-1">
               <p class="text-lg font-semibold leading-8 text-gray-900">Good research skills</p>
-              <p class="mt-2 text-base leading-7 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+              <p class="mt-2 text-base leading-7 text-gray-600">I can gather information about a topic, review that information and analyze and interpret the details in a way to support a solution.</p>
             </div>
           </div>
   
           <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-primary sm:shrink-0">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-[#3C2A21] text-[#E5E5CB] sm:shrink-0">
               <!-- Heroicon name: outline/scale -->
               <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
@@ -119,12 +120,12 @@
             </div>
             <div class="sm:min-w-0 sm:flex-1">
               <p class="text-lg font-semibold leading-8 text-gray-900">Design, develop, and modify software systems </p>
-              <p class="mt-2 text-base leading-7 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+              <p class="mt-2 text-base leading-7 text-gray-600">Having a personalized software product is nice, i can ensure that the software contains all of the features and functionalities that the organization needs to streamline business processes.</p>
             </div>
           </div>
   
           <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-primary sm:shrink-0">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-[#3C2A21] text-[#E5E5CB] sm:shrink-0">
               <!-- Heroicon name: outline/bolt -->
               <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
@@ -132,12 +133,12 @@
             </div>
             <div class="sm:min-w-0 sm:flex-1">
               <p class="text-lg font-semibold leading-8 text-gray-900">Possess strong problem-solving skills, as well as oral and written communication skills</p>
-              <p class="mt-2 text-base leading-7 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+              <p class="mt-2 text-base leading-7 text-gray-600">With this skills, i can create a healthy workplace culture</p>
             </div>
           </div>
   
           <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-warna text-primary shrink-0">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-[#3C2A21] text-[#E5E5CB] shrink-0">
               <!-- Heroicon name: outline/device-phone-mobile -->
               <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
@@ -145,7 +146,7 @@
             </div>
             <div class="sm:min-w-0 sm:flex-1">
               <p class="text-lg font-semibold leading-8 text-gray-900">The ability to troubleshoot and debug</p>
-              <p class="mt-2 text-base leading-7 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+              <p class="mt-2 text-base leading-7 text-gray-600">I can identify issues or problems occurring in a system.</p>
             </div>
           </div>
         </div>
@@ -163,10 +164,10 @@
         <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
           <div class="group relative">
             <div class="relative h-80 w-full overflow-hidden rounded-lg bg-primary group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-              <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." class="h-full w-full object-cover object-center">
+              <img src="dist/img/ecommerce.png" alt="" class="h-full w-full object-contain object-center">
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
-              <a href="##project">
+              <a target="_blank" href="https://github.com/Yasushiro96">
                 <span class="absolute inset-0"></span>
                 Web Development
               </a>
@@ -176,10 +177,10 @@
   
           <div class="group relative">
             <div class="relative h-80 w-full overflow-hidden rounded-lg bg-primary group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-              <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg" alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant." class="h-full w-full object-cover object-center">
+              <img src="dist/img/kitchen.png" alt="" class="h-full w-full object-cover object-center">
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
-              <a href="#project">
+              <a target="_blank" href="https://github.com/Yasushiro96">
                 <span class="absolute inset-0"></span>
                 3D Modelling
               </a>
@@ -189,10 +190,10 @@
   
           <div class="group relative">
             <div class="relative h-80 w-full overflow-hidden rounded-lg bg-primary group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-              <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg" alt="Collection of four insulated travel bottles on wooden shelf." class="h-full w-full object-cover object-center">
+              <img src="dist/img/toko-teh.png" alt="" class="h-full w-full object-cover object-center">
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
-              <a href="##project">
+              <a target="_blank" href="https://github.com/Yasushiro96">
                 <span class="absolute inset-0"></span>
                 Vector Ilustration
               </a>
@@ -205,33 +206,33 @@
   </div>
 
 
-  <!-- testimoni -->
-  <div class="bg-primary">
+  <!-- testimonial -->
+  <div class="bg-[#1A120B]">
     <div class="mx-auto grid max-w-7xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
       <div>
-        <h2 class="text-lg font-semibold leading-8 text-secondarybg-secondary mb-2">Testimonial</h2>
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Testimony from people i've helped</h2>
-        <p class="mt-4 text-gray-500">The following statements are not based on facts this is just an abuse of authority from the developer</p>
+        <h2 class="text-lg font-semibold leading-8 text-[#D5CEA3] mb-2">Testimonial</h2>
+        <h2 class="text-3xl font-bold tracking-tight text-[#E5E5CB] sm:text-4xl">Testimony from people i've helped</h2>
+        <p class="mt-4 text-[#D5CEA3]">The following statements are not based on facts this is just an abuse of authority from the developer</p>
   
         <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
           <div class="border-t border-gray-200 pt-4">
-            <dt class="font-medium text-gray-900">Mom</dt>
-            <dd class="mt-2 text-sm text-gray-500">Keep the good work</dd>
+            <dt class="font-medium text-[#E5E5CB]">Mom</dt>
+            <dd class="mt-2 text-sm text-[#D5CEA3]">Keep the good work</dd>
           </div>
   
           <div class="border-t border-gray-200 pt-4">
-            <dt class="font-medium text-gray-900">Dad</dt>
-            <dd class="mt-2 text-sm text-gray-500">Good work son</dd>
+            <dt class="font-medium text-[#E5E5CB]">Dad</dt>
+            <dd class="mt-2 text-sm text-[#D5CEA3]">Good work son</dd>
           </div>
   
           <div class="border-t border-gray-200 pt-4">
-            <dt class="font-medium text-gray-900">Big Bro</dt>
-            <dd class="mt-2 text-sm text-gray-500">Nicely done</dd>
+            <dt class="font-medium text-[#E5E5CB]">Big Bro</dt>
+            <dd class="mt-2 text-sm text-[#D5CEA3]">Nicely done</dd>
           </div>
   
           <div class="border-t border-gray-200 pt-4">
-            <dt class="font-medium text-gray-900">Big Smoke</dt>
-            <dd class="mt-2 text-sm text-gray-500">You picked the wrong house, fool!</dd>
+            <dt class="font-medium text-[#E5E5CB]">Big Smoke</dt>
+            <dd class="mt-2 text-sm text-[#D5CEA3]">You picked the wrong house, fool!</dd>
           </div>
 
       </div>
@@ -265,7 +266,7 @@
                 <a target="_blank" href="https://github.com/Yasushiro96" class="inline-block mb-3 text-base text-white"><i class="fa fa-github mr-2" aria-hidden="true"></i>@Yasushiro96</a>
               </li>
               <li>
-                <a target="_blank" href="https://www.youtube.com/watch?v=C8mJ8943X80" class="inline-block mb-3 text-base text-white"><i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>vyrdi.firmansyah@gmail.com</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=C8mJ8943X80" class="inline-block mb-3 text-sm text-white"><i class="fa fa-envelope-o mr-1" aria-hidden="true"></i>vyrdi.firmansyah@gmail.com</a>
               </li>
             </ul>
             <ul class="w-full lg:w-1/2">

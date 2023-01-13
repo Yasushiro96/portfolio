@@ -14,7 +14,7 @@ window.onscroll = function () {
    }
  };
  
- const button = document.querySelector('#menu-button');
+ const button = document.querySelector('#navbar-button');
  const menu = document.querySelector('#menu');
  
  
